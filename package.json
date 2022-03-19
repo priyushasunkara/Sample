@@ -1,0 +1,28 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "function.js",
+  "scripts": {
+    "test": "jest",
+    "build": "parcel build index.html",
+    "dev": "parcel index.html --open",
+    "start": "npm run build && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priyushasunkara/Sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priyushasunkara/Sample/issues"
+  },
+  "homepage": "https://github.com/priyushasunkara/Sample#readme",
+  "dependencies": {
+    "build": "^0.1.4",
+    "jest": "^27.5.1",
+    "parcel-bundler": "^1.12.5"
+  }
+}
